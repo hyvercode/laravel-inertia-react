@@ -33,7 +33,6 @@ export default function Register() {
     return (
         <GuestLayout>
             <Head title="Register" />
-
             <form onSubmit={submit}>
                 <div>
                     <InputLabel forInput="name" value="Name" />
@@ -111,7 +110,7 @@ export default function Register() {
                     </Link>
 
                     <PrimaryButton className="ml-4" processing={processing}>
-                        Register
+                        Register Now
                     </PrimaryButton>
                 </div>
             </form>
